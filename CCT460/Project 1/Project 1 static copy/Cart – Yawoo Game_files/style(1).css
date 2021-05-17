@@ -1,0 +1,201 @@
+
+/*
+Theme Name: Twenty Twenty-One Child Theme
+Template: twentytwentyone
+*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url("../twentytwentyone/style.css");
+
+
+
+.site-title{
+	font-weight: 700;
+	font-size: 4em;
+	display: inline;
+    font-style: italic;
+    color: #000;
+    text-shadow: 0 0 4px #FFF;
+}
+p.site-title a{
+	display: inline;
+    font-style: italic;
+    color: #000;
+    text-shadow: 0 0 4px #FFF;
+	font-weight: 900!important;
+}
+h1.entry-title {
+	 text-shadow: 0 0 4px #000000;
+	text-align: center;
+	font-weight: 600;
+	color:rgba(0,167,13,1.00)
+}
+h2, h3, h4 {
+	font-family: 'Raleway', sans-serif!important;
+}
+p.site-description {
+	/*display: inline; */
+	font-family: 'Raleway', sans-serif!important;
+
+}
+p {
+	 font-family: 'Raleway', sans-serif!important;
+	font-weight: bold;
+}
+
+
+#logo-main {
+	height: 140px !important;
+	width: auto;
+	margin-right: 20px;
+}
+
+main article p {
+	font-size: 1.25em;
+}
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+.sticky-nav + .content {
+  padding-top: 60px;
+
+}
+#site-navigation {
+    width:100%;
+	margin: 0;
+	z-index: 10;
+}
+.primary-menu-container {
+	margin: 0;
+}
+.primary-navigation > div > .menu-wrapper {
+	justify-content: space-around;
+	display: flex;
+}
+ul#primary-menu-list.menu-wrapper{
+	background-color: #4FB493!important;
+	padding-bottom: 5px;
+}
+.wp-block-column > .wp-block-cover:hover {
+	transform: translateY(-20px);
+	box-shadow: 4px 4px 8px 8px rgba(0,0,0,0.87);
+	transition: all 150ms ease-in-out;
+
+}
+
+.menu-item, .ec_menu_mini_cart a { 
+	display: block;
+	background-color: #4FB493!important;
+	padding: 0 5px 0 5px;
+	position: relative;
+	margin-top: 5px;
+	/*overflow-x: hidden;
+	overflow-y: visible;*/
+}
+.ec_menu_mini_cart a {
+	padding-top: 12px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	font-family: 'Raleway', sans-serif!important;
+
+}
+.menu-item a, .ec_menu_mini_cart a {
+	font-family: 'Raleway', sans-serif!important;
+	text-decoration: none;
+}
+.primary-navigation .primary-menu-container > ul > .menu-item {
+	margin-top: 5px;
+}
+li.menu-item a:hover, li.ec_menu_mini_cart a:hover {
+	position:relative;
+	box-shadow: 0 0 0 10px #888888; 
+	text-decoration: none;
+	z-index: 10;
+	transition: all 100ms ease-in-out;
+
+}
+li.menu-item a:active, li.ec_menu_mini_cart a:active {
+    position:relative;
+	box-shadow: 0 0 0 5px #888888;
+	text-decoration: none;
+	transition: all 100ms ease-in-out;
+
+}
+
+li.current-menu-item a {
+    position:relative;
+	box-shadow: 0 0 0 5px #888888;
+	text-decoration: none;
+}
+
+.ec_product_page, .ec_cart_page {
+	max-width: 1280px!important;
+}
+.ec_cart_input_row label {
+	font-size: 1.5em;
+}
+.ec_cart_price_row_label, .ec_cart_price_row_total {
+	font-size: 1.5em;
+}
+
+
+/*span .wp-block-cover__gradient-background p{
+	font-size: 24px;
+}*/
+
+/* Transparent Image Text from https://www.w3schools.com/howto/howto_css_image_transparent.asp*/
+
+ .image-container {
+  position: relative;
+  margin: 0 auto; /* Center it */
+  max-width: 70%!important; 
+}
+.image-container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+/**********************/
+.blocks-gallery-item img {
+	transition: transform .2s; 
+
+}
+.blocks-gallery-item img:hover{
+	transform: scale(1.5); 
+	z-index: 10;
+	position:relative;
+	 border: 5px solid #555;
+	  border-radius: 25px;
+		box-shadow: 4px 4px 8px 8px rgba(0,0,0,0.87);
+
+}
+.aside-content ul{
+	width:25%;
+}
+.aside-content li {
+	display: block;
+}
+.left-form {
+	  border-right: 7px dotted rgba(19,17,17,1.00);
+	padding-right: 20px;
+}
+.ec_cart_page div, .ec_cart_page p, .ec_cart_page input, .ec_cart_page label ,.ec_cart_page select{
+	font-family: 'Raleway', sans-serif!important;
+
+}
+.ec_cart_button {
+	border-radius: 0px!important;
+	font-family: 'Raleway', sans-serif!important;
+
+}
+.ec_cart_button:hover {
+	box-shadow: 0 0 0 0 rgba(50,50,50,0.93)!important;
+	color: black!important;
+	background-color: white!important;
+}
