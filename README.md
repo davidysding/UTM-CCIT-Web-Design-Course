@@ -3,6 +3,7 @@
 
 ### Table of Content 
 1. [CCT360 Bootstrap Project](/CCT360)
+   Live Sample is [Here](https://davidysding.github.io/)
 2. [CCT460 WordPress project (project 1) and SEO and API project (Project 2)](/CCT460)
 
 ## Both Web Design Courses are instructed by Ramtin Lotfabadi (http://ramtinlotfabadi.com/)
