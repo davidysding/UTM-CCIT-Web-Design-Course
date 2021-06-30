@@ -2,8 +2,8 @@
  Course assignment from CCT web design courses at Sheridan college (Joint program by UTM and Sheridan -- CCIT)
 
 ### Table of Content 
-1. [CCT360](/CCT360)
-2. [CCT460](/CCT460)
+1. [CCT360 Bootstrap Project](/CCT360)
+2. [CCT460 WordPress project (project 1) and SEO and API project (Project 2)](/CCT460)
 
 ## Both Web Design Courses are instructed by Ramtin Lotfabadi (http://ramtinlotfabadi.com/)
 CCT360 builds upon the concepts introduced in Web Culture and Design and expands upon them to include the theory and practical aspects of creating modern, compliant standards for websites. Its focus is primarily on the design and presentation of websites on the client side. Students will learn how to develop websites for consumption on various platforms including desktop browsers, mobile devices, etc.
